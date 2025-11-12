@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
 app:
-  image: fisrt-build:v1
+  image: jibindevps/fisrt-build:v1
   ports:
   - "3000:3000"
   depends_on:
@@ -13,7 +13,7 @@ app:
 
 
 db:
-  image: prod-db:v1.2
+  image: jibindevps/prod-db:v1.2
   
   ports:
   - "27017:27017"
