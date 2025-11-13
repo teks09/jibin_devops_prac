@@ -20,5 +20,5 @@ db:
   - db_data:/data/db
 
 volumes:
-db_data:
-app_data:
+ db_data:
+ app_data:
