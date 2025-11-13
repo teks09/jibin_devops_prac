@@ -1,5 +1,4 @@
 version: '3.8'
-
 services:
  app:
   image: jibindevps/fisrt-build:v1
@@ -20,5 +19,5 @@ db:
   - db_data:/data/db
 
 volumes:
-  db_data:
-  app_data:
+  db_data
+  app_data
