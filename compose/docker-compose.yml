@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-app:
+ app:
   image: jibindevps/fisrt-build:v1
   ports:
   - "3000:3000"
@@ -10,7 +10,6 @@ app:
   volumes:
   - app_data:/data/app
   
-
 
 db:
   image: jibindevps/prod-db:v1.2
