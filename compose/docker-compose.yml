@@ -1,7 +1,7 @@
 version: '3.8'
 services:
  app:
-  image: jibindevps/fisrt-build:v1
+  image: jibindevps/first-build:v1
   ports:
   - "3000:3000"
   depends_on:
