@@ -6,6 +6,8 @@ services:
   - "3000:3000"
   depends_on:
   - db
+  env_file:
+   - .env
   volumes:
   - app_data:/data/app
   
