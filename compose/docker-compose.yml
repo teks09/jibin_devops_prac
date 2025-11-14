@@ -11,7 +11,7 @@ services:
   
 
 db:
-  image: jibindevps/prod-db:v1.2
+  image: jibindevps/prod-db:V1.2
   
   ports:
   - "27017:27017"
